@@ -1,0 +1,135 @@
+  
+.image{
+    margin-left:10px;
+	padding-right:10px;
+	width:60px; 
+    height:60px;
+	margin-bottom:-20px;}  
+ 
+button{
+	background-color:rgba(0,0,255,0);
+	height:100px;
+	margin-left:-20px;
+	border:none;
+	color:#fff;}
+button:hover {
+	cursor:pointer;	 
+	background-color:rgba(0,0,204,0.2);}
+p   {
+	padding-left:6px;
+	padding-top:11px;} 
+	
+ 
+.contenu1{
+margin-left:570px;
+margin-top:4px;
+width:300px;
+text-align:center;
+background-color:#CCC;
+font-family:arial;
+padding-left:5px;
+padding-right:5px;
+padding-bottom:5px;
+padding-top:3px;
+font-size:14px;
+border:1px solid black;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+float:left;
+}
+.tablegauche{
+	margin-left:1000px;
+	margin-top:-577px;
+	
+}
+ 
+
+#action a
+{
+	text-decoration:none;
+	color:blue;
+	font-weight:bold;
+}
+#action a:hover
+{
+	text-decoration:none;
+	font-style:italic;
+	color:blue;
+}
+
+#lien a
+{
+	text-decoration:none;
+	color:blue;
+}
+
+#lien a:hover
+{
+	text-decoration:none;
+	font-style:italic;
+	color:red;
+}
+.container{
+ 	width:400px;
+	height:0 auto;
+ 	background-color:rgba(0,0,0, .4);
+	border-radius:4px;
+	margin:0 auto;
+  	transition: background-color .7s;
+	margin-left:420px;
+	padding-right:160px;
+  		
+}
+ input , select {
+	height:25px;
+	width:70px;
+	font-size:20px;
+	margin-bottom:20px;
+	border-radius:6px;
+	border:none;
+ 	
+}
+ input[class=btn_mod]{border:solid #FFF;
+border-width:1px;
+text-align:center;
+background-color:inherit;
+width:150px;
+height:30px;border-radius:0px;
+color:#FFF; font-family: monospace;
+letter-spacing:-2px;}
+input[class=btn_mod]:hover {
+background-color:#ff962f;
+transition:.5s;
+cursor:pointer;
+}
+
+ 
+	.img2 {
+	background-color:#01adc1;
+	border-bottom:2px solid #666;
+	color:#FFF;
+	border-radius:6px;
+	width:160px;
+	margin-right:300px;
+	}
+
+.img2:hover{
+	background-color: rgba(255,255,255, 1);
+	color:#050fc7;
+	cursor:pointer;
+	transition:.9s;	
+}
+input[class=btn_mod]{border:solid #FFF;
+border-width:1px;
+text-align:center;
+background-color:inherit;
+width:150px;
+height:30px;border-radius:0px;
+color:#FFF; font-family: monospace;
+letter-spacing:-2px;}
+input[class=btn_mod]:hover {
+background-color:#ff962f;
+transition:.5s;
+cursor:pointer;
+
+

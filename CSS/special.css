@@ -1,0 +1,65 @@
+ @charset "utf-8";
+/* CSS special */
+.aqw{
+	height:35px;
+	width:240px;
+	font-size:24px;
+	margin-bottom:20px;
+	border-radius:4px;
+	text-align:center;
+	border:none; 	 	
+}
+.aqx1{
+	height:30px;
+	width:105px;
+	font-size:20px;
+	margin-top:2px;
+ 	border-radius:4px;
+ 	background-color:rgba(233,94,33,1);
+ 	color:#FFF;
+	border:none;
+}
+.aqx1:hover{
+	 background-color: rgba(255,255,255, 1);
+	 transition-duration:1s;
+	 color:#000;
+	 cursor:pointer;
+  	 }
+.aqx{
+	height:38px;
+	width:118px;
+	font-size:24px;
+	margin-bottom:20px;
+	border-radius:4px;
+	text-align:center;
+	background-color:rgba(233,94,33,1);
+ 	color:#FFF;
+	border:none;
+}
+.aqx:hover{
+	 background-color: rgba(255,255,255, 1);
+	 transition-duration:1s;
+	 color:#000;
+ 	 text-transform:uppercase;
+ 	 }
+.container{
+	margin-top:100px;
+ 	width:830px;
+	height:0 auto;
+ 	background-color:rgba(0,0,0, .4);
+	border-radius:4px;
+	margin:0 auto;
+	text-align:center;
+  	transition: background-color .7s;
+ 	padding-bottom:-30px;
+	margin-bottom:-20px; 
+	margin-top:60px;
+}
+button[type=Submit] {
+    width:10 px;
+	height:100 px;
+	margin-left:80px;
+	margin-top:8px;  
+}
+select {
+width:100px;}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 900px;
+	margin-left:-25px;;
+	text-align: left;
+	border-collapse: collapse;  
+}
+#rounded-corner td
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: white;
+	background: #808484;
+	text-align : center;
+}
+#rounded-corner td
+{
+	height:30px;
+	padding:0 25px;
+	background: #eee;
+	border-top: 2px solid #ddd;
+	color: #669;
+	text-align:center;
+}
+ 
+ #rounded-corner tr:hover td {
+	text-align:center;
+    padding: 0 25px;
+    background-color:#ddd;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('image/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('images/botright.png') right bottom no-repeat;
+}
+th {border:double #000;
+   height:30px;
+   text-align:center;
+   background-color:rgba(153,153,153,1);
+   color:#FFF;
+   font-size:16px;
+   font-family:Verdana, Geneva, sans-serif;
+	}
+td {border:double #006;
+	
+	}

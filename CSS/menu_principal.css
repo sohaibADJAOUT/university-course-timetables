@@ -1,0 +1,69 @@
+body { 
+
+ font-family: "Open Sans", sans-serif; 
+ height:0 auto;      
+ font-size: 18px;
+ font-weight: 200; 
+ margin: 0;
+ padding: 0;
+ background-size: 100% 740px;
+    }
+		nav > ul > li > a[aria-haspopup="true"]::after{
+	border-top: 5px solid #FFF;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;	
+	left: 20px;
+	right: auto;
+	bottom: 6px;
+	top:auto;	
+	}
+
+.page { max-width: 1500px; margin: 0 auto; position: absolute top;}
+
+/*logo*/
+header a.logo { position: absolute; display: block; width: 90px; height: 96px; background: url(../image/ummto.png) no-repeat 0 0; background-size: contain; z-index: 2; top: 0px; left: 25px; }
+header a.logo:hover {position: absolute; display: block; width: 100px; height: 96px;background: url(../image/ummto1.png) no-repeat 0 0; background-size: contain; z-index: 1; top: -2px; left: 25px;}
+
+/* Navigation */
+nav { background-color: rgba(0,0,0,.7); position: absolute; top: 0px; left: 0px; padding: 50px 0px 0px 0px; width: 100%;}
+nav a:visited { color #000; }
+
+nav ul { list-style:none; margin: 0px; padding: 0px;}
+nav ul::after { content: ""; display: block; clear: both;}
+
+nav ul li:hover { background-color:rgba(233,94,33,.99);
+border-bottom-left-radius:10px;
+border-top-right-radius:8px;}
+nav ul li:hover > ul { display: block; }
+
+nav ul li a { display: inline-block; color: #000; padding: 10px 20px; text-decoration:none; width: 120px; position: relative; }
+nav ul li a:hover { background-color:rgba(0,0,0, .001); }
+
+nav ul ul { display: none; position: absolute; top: 100%; background-color:rgba(255,255,255,1); }
+nav ul ul li { position:relative; }
+nav ul ul ul { left: 100%; top: 0; }
+
+
+/* top level */
+nav > ul { padding-left: 300px; }
+nav > ul > li { float: left; }
+nav > ul > li > a { padding: 10px 20px 15px 20px; width: auto;}
+
+
+/*bouton deconection*/
+.deco{ position:absolute;
+    right:50px;
+	top:50px;
+   }
+
+.fofo{
+	width: 100%;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
+    font-size: smaller;
+	position: fixed;
+	bottom:0px;
+	height:33px;
+	z-index:1;
+}

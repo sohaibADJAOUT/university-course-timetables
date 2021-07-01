@@ -1,0 +1,29 @@
+#cover {
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#cover-caption {
+    width: 100%;
+    position: relative;
+}
+/* only used for background overlay not needed for centering */
+form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #0F1520;
+    z-index: -1;
+    border-radius: 10px;
+}
+.container{
+    margin-bottom: 90px;
+}
+.local{
+        height: 35px; width: 386px;font-size: 16px;}

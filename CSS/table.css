@@ -1,0 +1,172 @@
+#rounded-corner {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    margin: 10px 0;
+    width: 75%;
+    text-align:center;
+    border-collapse: collapse;
+	
+}
+#rounded-corner th {
+     font-size: 14px;
+    font-weight: normal;
+    padding: 6px;
+    background: #b9c9fe url(../../../../Users/tigrine/Desktop/gradhover.png) repeat-x;
+    border-top: 2px solid #d3ddff;
+    border-bottom: 1px solid #fff;
+    color: #039;
+}
+#rounded-corner td {
+	text-align:center;
+    padding: 6px;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid #fff;
+    background: #e8edff url(../../../../Users/tigrine/Desktop/gradhover.png) repeat-x;
+}
+#rounded-corner tfoot tr td {
+    background: #e8edff;
+    font-size: 16px;
+    color: #99c;
+    text-align:center;
+ }
+#rounded-corner tbody tr:hover td {
+    background: #d0dafd url(../../../../Users/tigrine/Desktop/gradhover.png) repeat-x;
+    color: #339;
+}
+#rounded-corner a:hover {
+    text-decoration:underline;
+	
+}
+	 
+	  
+.aze{
+	background-color:rgba(233,94,33,1);
+	border-bottom:2px solid #666;
+	margin-right:50px;
+
+	}
+
+.aze:hover{
+	background-color: rgba(255,255,255, 1);
+} 
+
+input , select {
+	height:35px;
+	width:260px;
+	font-size:24px;
+	margin-bottom:20px;
+	border-radius:6px;
+	border:none;
+	text-align:center;
+	
+	
+} 
+.rech {margin-bottom:70px;
+      margin-left:65px;
+      width:300px;
+      height:30px;
+ 	  font-size:16px;
+	  border-radius:0px;
+	  margin-top:-33px;
+	  padding-right:40.4px
+  		}
+		 a.top {
+   position:fixed;
+   top:800 auto;
+   margin-left:550px;
+   color:#FFF;
+   z-index:1;
+}
+.rech:hover {
+	border: solid 1px rgba(255,153,0,1);
+ 		}
+.r:hover {background:#663;}
+ 	
+.r { background:#fff;
+    border-radius:0px;
+    color:#FFF; 
+    margin-top:33px;
+    width:40px; 
+    height:31px; }
+	
+  a:visited { color:#909; }
+
+button{
+	background-color:rgba(0,0,255,0);
+	height:100px;
+	margin-left:-20px;
+	border:none;
+	color:#fff;}
+.rec {cursor:pointer;}
+
+.img2 {
+	margin-left:900px;
+	background-color:#01adc1;
+	border-bottom:2px solid #666;
+	color:#FFF;
+	border-radius:6px;
+	width:160px;
+
+	}
+
+.img2:hover{
+	background-color: rgba(255,255,255, 1);
+	color:#050fc7;
+	cursor:pointer;
+	transition:.9s;
+ 	
+}
+.prec {
+	margin-left:10px;
+	margin-bottom:40px;
+	background-color:#01adc1;
+	border-bottom:2px solid #666;
+	color:#FFF;
+	border-radius:6px;
+	width:120px;
+	height:30px;
+	margin-top:10px;
+	}
+
+.prec:hover{
+	background-color: rgba(255,255,255, 1);
+	color:#050fc7;
+	cursor:pointer;
+	transition:.9s;
+ 	
+}
+a#cRetour{
+  border-radius:3px;
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  color:#fff;
+  background:rgba(0, 0, 0, 0.7);
+  position:fixed;
+  right:20px;
+  opacity:1;
+  width:30px;
+  z-index:99999;
+  transition:all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+a#cRetour:before{ content: "\25b2"; }
+a#cRetour:hover{
+  background:rgba(0, 0, 0, 1);
+  transition:all ease-in 0.2s;
+}
+a#cRetour.cInvisible{
+  bottom:-35px;
+  opacity:0;
+  transition:all ease-in 0.5s;
+}
+
+a#cRetour.cVisible{
+  bottom:20px;
+  opacity:1;
+}
+	 
+	 

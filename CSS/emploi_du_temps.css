@@ -1,0 +1,217 @@
+@page{margin:0;
+height:80%;}
+
+@media print{
+	input{display:none; }
+	}
+img {
+	margin-left:18.5px;
+	padding-right:10px;
+	margin-bottom:-20px;
+	width:60px; 
+    height:60px;
+	width:60px;
+ 	}
+   button {
+	background-color:rgba(0,0,255,0);
+	margin-left:-20px;
+	height:100px;	
+	border:none;
+	color:#fff;}
+button:hover {	
+	background-color:rgba(0,0,204,0.2);
+	cursor:pointer;}	
+.emploi {
+	background-color:rgba(255,255,255,0);
+  	text-align:center;
+ 	width:85%;
+   	}
+ 
+.mam {
+	background-color:rgba(102,102,102,.3);
+	width:85px;
+	font-weight:bold;
+ 	letter-spacing:1px;
+	height:20px;}
+ .massi { 
+	height:20px;
+	background-color:rgba(102,102,102,.7);
+	letter-spacing:1px;
+ 		}
+select {
+     width:135px;
+    height:24.7px;
+    margin-bottom:1px;
+ 	text-align:center;
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+  	} 
+	option {
+		text-align:left;
+		}
+ .valider {
+	background-color:#01adc1;
+	border-bottom:2px solid #666;
+	color:#FFF;
+	border-radius:6px;
+	height:25px;
+	width:80px;
+	margin:0 auto;
+	}
+ .valider:hover{
+	background-color: rgba(255,255,255, 1);
+	color:#050fc7;
+	cursor:pointer;
+	transition:.9s;
+ }.valider1 {
+	background-color:#F00;
+	border-bottom:2px solid #666;
+	color:#FFF;
+	border-radius:6px;
+	height:25px;
+	width:80px;
+	margin:0 auto;
+	}
+ .valider1:hover{
+ 	color:#FFF;
+	cursor:no-drop;
+	transition:.9s;
+	text-align:center;
+ }
+.modif {
+	background-color:#01adc1;
+	border-bottom:2px solid #666;
+	color:#FFF;
+	border-radius:3px;
+	height:25px;
+ 	padding:1px 2px 1px 2px;
+	font-weight:bold;
+   	}
+ .modif:hover{
+	background-color: rgba(255,255,255, 1);
+	color:#050fc7;
+	cursor:pointer;
+	transition:.9s;
+ }
+.modsup {
+	background-color:#01adc1;
+	width:100px;
+	border-bottom:2px solid #666;
+	color:#FFF;
+	border-radius:3px;
+	height:25px;
+ 	padding:1px 2px 1px 2px;
+	font-weight:bold;
+   	}
+.modsup:hover{
+	background-color: rgba(255,255,255, 1);
+	color:#050fc7;
+	cursor:pointer;
+	transition:.9s;
+ }
+p   {
+	padding-left:6px;
+	padding-top:10px;} 
+table{ 
+    padding-left:10px;
+	background-color:rgba(0,0,255,0.5);
+}
+ .for1{ 
+      border: 1px;
+	}
+	.imp {
+	background-color:rgba(233,94,33,1);
+	border-bottom:2px solid #666;
+	}
+
+.imp:hover{
+	background-color: rgba(255,255,255, 1);
+}
+  td {
+	 
+	  height:0 auto; width:300px; font-size:16px; font-weight:normal;
+}
+a {
+	text-decoration:none;
+	}
+	 
+	  table.emploi{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+	margin-top:-10px;
+}
+.emploi thead th{
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.emploi thead th:empty{
+    background:transparent;
+    border:none;
+}
+.emploi tbody th{
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+     border:1px solid #93CE37;
+    border-right:3px solid #9ED929;
+    padding:0px 5px;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.02, rgb(158,217,41)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(123,192,67))
+        );
+    background: -moz-linear-gradient(
+        left bottom,
+        rgb(158,217,41) 2%,
+        rgb(139,198,66) 51%,
+        rgb(123,192,67) 87%
+        );
+    -moz-border-radius:5px 0px 0px 5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+ 
+.emploi tbody td{
+    padding:0.4px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px; 
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff; 
+}
+.emploi tbody span.check::before{
+    content : url(../images/check0.png)
+	
